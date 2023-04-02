@@ -1,0 +1,246 @@
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../img/1600w-kyL4zdu4OLM.webp");
+  background-position: center center;
+ 
+}
+
+
+#uno{
+  background-color: hwb(99 7% 25%);
+}
+
+#dos{
+  background-color: hsl(22, 86%, 47%);
+}
+
+#tres{
+  background-color: #09ada2;
+}
+
+#cuatro{
+  background-color: hsl(0, 88%, 40%);
+}
+
+#cinco{
+  background-color: #0950ad;
+}
+
+#seis{
+  background-color: hsl(304, 80%, 40%);
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#let{
+  text-align: center;
+}
+
+#sec{
+  position: sticky;
+  margin-top: 8%;
+  margin-bottom: 0;
+  display: inline-block;
+  padding: 0;
+
+}
+
+#sect{
+  margin-top: 0;
+  padding: 0;
+}
+
+h1{
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+.cardi {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  
+}
+
+.cardi .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.cardi .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.cardi .front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardi .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.cardi .back {
+  transform: perspective(600px) rotateY(180deg);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.cardi .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.cardi .back .link a {
+  color: #f3f3f3;
+}
+
+.cardi .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.cardi .back p {
+  letter-spacing: 1px;
+  text-align: justify;
+} 
+
+.cardi:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.cardi:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.cardi{
+  margin-top: 40%;
+}
+
+
+/* cards2 */
+.cardi2 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  
+}
+
+.cardi2 .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.cardi2 .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.cardi2 .front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.cardi2 .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.cardi2 .back {
+  transform: perspective(600px) rotateY(180deg);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.cardi2 .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.cardi2 .back .link a {
+  color: #f3f3f3;
+}
+
+.cardi2 .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.cardi2 .back p {
+  letter-spacing: 1px;
+  text-align: justify;
+} 
+
+.cardi2:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.cardi2:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+#footer2{
+  margin-top: 5%;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+

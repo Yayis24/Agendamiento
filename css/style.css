@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #64259f;
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px ;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li a.active, li a:hover{
+    background: #58a3ea;
+    transition: 2s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px; 
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#do{
+    background-image: url("../img/odon.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px) ;
+}
+
+footer{
+    background-color: #64259f;
+ 
+}
+
+#colors{
+    color: bisque;
+}
+
+
+
+
+
+
+
+
+
+

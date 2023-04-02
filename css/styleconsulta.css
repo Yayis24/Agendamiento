@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/1600w-kyL4zdu4OLM.webp");
+    margin: 0;
+    height: 100vb;
+
+}
+
+#container h2{
+    font-weight: bold;
+    background-color: antiquewhite;
+
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#boton{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    background-color: #d69bee;
+    width: 40%;
+    top: 120px;
+    position: relative;
+    margin-bottom: 15%;
+
+}
+
+table tr{
+    background-color: #d69bee;
+
+}
+
+#foo{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top:5%;
+
+
+    
+  
+  }
+
+
+  form{
+    bottom: 5%;
+  }

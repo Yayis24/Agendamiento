@@ -1,0 +1,57 @@
+body {
+
+    background-size: cover;
+    background-image: url("../img/1600w-kyL4zdu4OLM.webp");
+    background-repeat: no-repeat;
+   
+  }
+
+tbody{
+  background-color: #d69bee;
+}
+
+thead{
+  background-color: antiquewhite;
+}
+
+#citas{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 3%;
+
+}
+
+.containerr{
+  background-color: antiquewhite;
+  margin-bottom: 20%;
+  position: relative;
+  top: 120px;
+  justify-content: center;
+  width: 90%;
+  right: 5%;
+  left: 5%;
+
+}
+
+.containerr .text-center{
+  font-weight: bold;
+  
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+th{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#foo{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 0;
+  
+
+}
